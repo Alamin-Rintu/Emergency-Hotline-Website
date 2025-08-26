@@ -12,6 +12,8 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
   </head>
   <body>
@@ -47,13 +49,68 @@
     </header>
     <main>
       <!-- banner section start -->
-      <section class="banner w-full max-auto h-[240px] bg-gradient-to-r from-[#013223] to-[#006747] flex flex-col justify-center items-center">
-          <img class="h-[90px] w-[90px]" src="./assets/logo.png" alt="" />
-          <h1 class="text-white text-3xl font-bold my-2">Emergency Service Directory</h1>
-          <p class="text-white  text-lg">
-            Government Emergency Services at Your Fingertip – A Project by
-            Government of the People’s Republic of Bangladesh
-          </p>
+      <section
+        class="banner w-full max-auto h-[240px] bg-gradient-to-r from-[#013223] to-[#006747] flex flex-col justify-center items-center"
+      >
+        <img class="h-[90px] w-[90px]" src="./assets/logo.png" alt="" />
+        <h1 class="text-white text-3xl font-bold my-2">
+          Emergency Service Directory
+        </h1>
+        <p class="text-white text-lg">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </section>
+      <!-- product section -->
+      <section
+        class="section-container bg-[#F5FFF6] w-full mx-auto h-100 grid grid-cols-12 gap-6"
+      >
+        <section class="col-span-9 ">
+          <div class="section-cards mt-5">
+            <!-- 1st card -->
+            <div
+              class="bg-white w-[400px] h-[350px] px-5 py-5 rounded-xl shadow-sm shadow-gray-300"
+            >
+              <div class="flex justify-between items-center">
+                <img
+                  class="w-[40px] h-[40px] p-2 bg-red-100 rounded-lg"
+                  src="./assets/emergency.png"
+                  alt="Emergency Icon"
+                />
+              
+                <i class="fa-regular fa-heart w-[24px] h-[24px]"></i>
+              </div>
+
+              <div class="flex flex-col mt-3">
+                <h1 class="font-bold text-lg">National Emergency Number</h1>
+                <p class="text-sm text-gray-600">National Emergency</p>
+                <p class="font-bold text-3xl mt-3">999</p>
+                <span
+                  class="bg-gray-200 text-sm text-gray-700 rounded-full px-4 py-1 mt-2 w-fit"
+                  >All</span
+                >
+              </div>
+              <div class="flex items-center gap-3 mt-6">
+                <button
+                  class="flex-1 bg-gray-100 text-gray-600 px-3 py-2 rounded-lg border"
+                >
+                <i class="fa-solid fa-copy"></i>
+                  Copy
+                </button>
+                <button
+                  class="flex-1 bg-green-600 text-white px-3 py-2 rounded-lg"
+                >
+                <i class="fa-solid fa-phone"></i>
+                  Call
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside id="history-box" class="col-span-3 bg-yellow-400">
+          <h1>akdfasdf</h1>
+        </aside>
       </section>
     </main>
   </body>
