@@ -24,7 +24,9 @@
   </head>
   <body>
     <header>
-      <div class="head flex justify-between items-center h-24 mx-10">
+      <div
+        class="flex flex-col lg:flex-row justify-between items-center h-auto lg:h-24 px-4 lg:mx-10 py-4 lg:py-0 gap-3 lg:gap-0"
+      >
         <div class="left-head flex items-center gap-2">
           <img class="h-[50px]" src="./assets/logo.png" alt="" />
           <h1 class="text-[#006747] text-xl font-bold">
@@ -57,10 +59,10 @@
     <main>
       <!-- banner section start -->
       <section
-        class="banner w-full mx-auto h-[240px] bg-gradient-to-r from-[#013223] to-[#006747] flex flex-col justify-center items-center"
+        class="banner w-full h-60 lg:h-72 bg-gradient-to-r from-[#013223] to-[#006747] flex flex-col justify-center items-center text-center px-4"
       >
-        <img class="h-[90px] w-[90px]" src="./assets/logo.png" alt="" />
-        <h1 class="text-white text-3xl font-bold my-2">
+        <img class="h-20 w-20 lg:h-24 lg:w-24" src="./assets/logo.png" alt="" />
+        <h1 class="text-white text-2xl lg:text-3xl font-bold my-2">
           Emergency Service Directory
         </h1>
         <p class="text-white text-lg">
@@ -130,7 +132,9 @@
               ></i>
             </div>
             <div class="flex flex-col mt-3">
-              <h1 class="service-name font-bold text-lg">Police Helpline Number</h1>
+              <h1 class="service-name font-bold text-lg">
+                Police Helpline Number
+              </h1>
               <p class="text-sm text-gray-600">Police</p>
               <p class="service-number font-bold text-3xl mt-3">999</p>
               <span
@@ -167,7 +171,9 @@
               ></i>
             </div>
             <div class="flex flex-col mt-3">
-              <h1 class="service-name font-bold text-lg">Fire Service Number</h1>
+              <h1 class="service-name font-bold text-lg">
+                Fire Service Number
+              </h1>
               <p class="text-sm text-gray-600">Fire Service</p>
               <p class="service-number font-bold text-3xl mt-3">999</p>
               <span
@@ -241,7 +247,9 @@
               ></i>
             </div>
             <div class="flex flex-col mt-3">
-              <h1 class="service-name font-bold text-lg">Women & Child Helpline</h1>
+              <h1 class="service-name font-bold text-lg">
+                Women & Child Helpline
+              </h1>
               <p class="text-sm text-gray-600">Women & Child Helpline</p>
               <p class="service-number font-bold text-3xl mt-3">109</p>
               <span
@@ -278,7 +286,9 @@
               ></i>
             </div>
             <div class="flex flex-col mt-3">
-              <h1 class="service-name font-bold text-lg">Anti-Corruption Helpline</h1>
+              <h1 class="service-name font-bold text-lg">
+                Anti-Corruption Helpline
+              </h1>
               <p class="text-sm text-gray-600">Anti-Corruption</p>
               <p class="service-number font-bold text-3xl mt-3">106</p>
               <span
@@ -315,7 +325,9 @@
               ></i>
             </div>
             <div class="flex flex-col mt-3">
-              <h1 class="service-name font-bold text-lg">Electricity Helpline</h1>
+              <h1 class="service-name font-bold text-lg">
+                Electricity Helpline
+              </h1>
               <p class="text-sm text-gray-600">Electricity Outage</p>
               <p class="service-number font-bold text-3xl mt-3">16216</p>
               <span
@@ -390,7 +402,9 @@
               ></i>
             </div>
             <div class="flex flex-col mt-3">
-              <h1 class="service-name font-bold text-lg">Bangladesh Railway Helpline</h1>
+              <h1 class="service-name font-bold text-lg">
+                Bangladesh Railway Helpline
+              </h1>
               <p class="text-sm text-gray-600">Bangladesh Railway</p>
               <p class="service-number font-bold text-3xl mt-3">163</p>
               <span
@@ -414,23 +428,25 @@
         </div>
 
         <!-- history Section -->
-       <aside
-  id="history-box"
-  class="col-span-1 lg:col-span-2 bg-white shadow-sm shadow-gray-300 rounded-lg"
->
-  <div class="flex justify-between items-center px-5 py-3">
-    <h3><i class="fa-solid fa-clock-rotate-left"></i> Call History</h3>
-    <button
-      id="clear-history"
-      class="clear bg-green-600 text-white px-3 py-2 rounded-2xl"
-    >
-      Clear
-    </button>
-  </div>
+        <aside
+          id="history-box"
+          class="col-span-1 lg:col-span-2 bg-white shadow-sm shadow-gray-300 rounded-lg"
+        >
+          <div class="flex justify-between items-center px-5 py-3">
+            <h3><i class="fa-solid fa-clock-rotate-left"></i> Call History</h3>
+            <button
+              id="clear-history"
+              class="clear bg-green-600 text-white px-3 py-2 rounded-2xl"
+            >
+              Clear
+            </button>
+          </div>
 
-  <div id="call-history" class="bg-[#FAFAFA] pl-6 text-gray-700 py-3"></div>
-</aside>
-
+          <div
+            id="call-history"
+            class="bg-[#FAFAFA] pl-6 text-gray-700 py-3"
+          ></div>
+        </aside>
       </section>
     </main>
 
